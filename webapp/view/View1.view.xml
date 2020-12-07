@@ -1,0 +1,14 @@
+<mvc:View controllerName="com.exercise2.Exercise2.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Button id="helloDialogButton" text="{i18n>openDialogButtonText}" press=".onOpenDialog" class="sapUiSmallMarginEnd"/>
+						<Input value="{/recipient/name}" description="Hello {/recipient/name}" valueLiveUpdate="true" width="60%"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
