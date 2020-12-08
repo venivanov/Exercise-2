@@ -16,7 +16,7 @@ sap.ui.define([
 				"com.exercise2.Exercise2",
 				"/model/products.json");
 			var productsModel = new JSONModel(path);
-			return productsModel;
+			return productsModel; 
 		}
 	};
 });
